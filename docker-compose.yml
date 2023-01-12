@@ -1,9 +1,9 @@
 services:
-    vps1:
+    accetto:
         public: true
         privileged: true
         container_name: go
-        image: accetto/ubuntu-vnc-xfce:latest
+        image: accetto/ubuntu-vnc-xfce-g3
         ports:
             - 5901:5901
             - 6901:6901
