@@ -1,5 +1,5 @@
 services:
-    ubuntu-vnc-xfce:
+    vps1:
         public: true
         privileged: true
         container_name: go
